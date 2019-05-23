@@ -19,6 +19,7 @@
     <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
         <!--注入数据源-->
         <property name="dataSource" ref="dataSource"></property>
+
         <!--是否生成表结构-->
         <property name="databaseSchemaUpdate" value="true"/>
     </bean>
